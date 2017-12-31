@@ -8,8 +8,8 @@ defmodule ChatBackend do
 
   ## Examples
 
-      iex> ChatBackend.hello
-      :world
+      iex> ChatBackend.get_message
+      "Hello, from ChatBackend"
 
   """
   def get_message do
