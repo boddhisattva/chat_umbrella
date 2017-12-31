@@ -12,7 +12,7 @@ defmodule ChatBackend do
       :world
 
   """
-  def hello do
-    :world
+  def get_message do
+    "Hello, from ChatBackend"
   end
 end
